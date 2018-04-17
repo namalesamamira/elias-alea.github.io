@@ -1,0 +1,114 @@
+/* Add here all your css styles (customizations) */
+body {
+  color: #082c55;
+}
+
+.g-bg-main {
+    background-color: #082c55 !important;
+}
+
+.nav-link {
+  color: #082c55;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #faa030; 
+}
+
+.g-bg-main--hover:hover {
+  background-color: #082c55 !important;
+}
+
+.g-color-primary {
+    color: #faa030 !important;
+}
+
+.g-color-primary--hover:hover {
+  color: #faa030 !important;
+}
+
+.g-bg-primary {
+    background-color: #faa030 !important;
+}
+
+.g-bg-primary--hover:hover {
+    background-color: #faa030 !important;
+}
+
+.g-color-blue {
+  color: #082c55 !important;
+}
+
+.g-bg-theme-orange {
+  background: #faa030 !important;
+}
+
+.g-bg-facebook {
+    background-color: #4367b2 !important;
+}
+
+.g-bg-facebook-opacity-0_9--after::after {
+    background-color: rgba(67, 103, 178, .9);
+}
+
+.u-btn-primary {
+  background-color: #faa030;
+}
+
+@media only screen and (max-width: 562px) {
+  .g-bg-theme-orange--sm {
+    background: #faa030 !important;
+  }
+  .g-bg-theme-primary-sm {
+    background: #082c55;
+  }
+  .g-color-white-sm {
+    color: #fff;
+  }
+}
+
+.min-h-400 {
+  min-height: 400px;
+}
+
+footer .g-bg-dark {
+    background-color: #082c55;
+}
+
+.u-blockquote-v3::before {
+    color: #faa030;
+}
+
+.g-theme-brd-blue-dark-v5 {
+    border-color: #1e1e26 !important;
+}
+
+.h-72 {
+  height: 72px !important;
+}
+
+.h-70 {
+  height: 70px;
+}
+
+/*
+.brd-radius-3 {
+  border-radius: 3px;
+}
+
+.g-brd-bottom-5 {
+  border-bottom: 2px solid !important;
+}
+
+.g-brd-bottom-color-main {
+  border-bottom-color: #faa032 !important;
+}
+
+.g-brd-bottom-color-dark {
+  border-bottom-color: #1e1e26 !important;
+}*/
+
+#fancy-box .js-fancybox img {
+  border: 2px solid #fff;
+}
